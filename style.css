@@ -1,0 +1,51 @@
+
+
+.box{
+    border: 1px solid #D4D4D4;
+    width: 480px;
+    font-family: 'Padauk', sans-serif;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    font-size: 22px;
+    position: relative;
+    
+    
+}   
+
+.images-container::after {
+    content: "";
+    position: absolute;
+    bottom: 60px; /* Position the line below the images */
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #D4D4D4;
+  }
+
+
+.box1{
+    color: gray;
+    margin-top: 1px;
+    margin-bottom: 60px;
+    font-size: 19px;
+}
+
+.images-container{
+    display: flex;
+    justify-content:space-evenly;   
+    margin-bottom: 45px; 
+}
+
+.box2{
+   border-radius: 30px;
+}
+
+h1{
+    margin: 0px;
+}
+.box3{
+    font-size: 20px;
+    color: blue;
+    margin-bottom: 0px;
+}
